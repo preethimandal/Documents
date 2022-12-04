@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Footer</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        footer {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            background-color: black;
+            color:white;
+            padding: 10px;
+            font-family: Arial;
+        }
+        .left-panel {
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+        }
+        .right-panel {
+            display: grid;
+            grid-template-columns: 3fr 3fr;
+            border-left: 2px dotted white;
+            padding-left: 20px;
+        }
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .title~div {
+            margin-bottom: 10px;
+        }
+        header {
+            background-color: black;
+            color:white;
+            padding: 10px;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            font-family: Arial;
+        }
+        section{
+
+        height: 400px;
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+            margin-top: 20px;
+        }        
+        .header-left {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header-center span {
+            margin-right: 20px;
+        }
+        .header-center span:hover {
+            background-color: yellow;
+            color:red;
+        }
+        .header-right span {
+            margin-right: 20px;
+        }
+        nav div {
+            background-color: black;
+            color:white;
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 150px;
+            border-radius: 20px;
+        }
+        nav div:hover {
+            background-color: yellow;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <span>Shopper.</span>
+        </div>
+
+        <div class="header-center">
+            <nav>
+                <span> <span class="bi bi-house"></span> Home</span>
+                <span>Shop</span>
+                <span>Catalog</span>
+                <span>Blog</span>
+                <span>Pages</span>
+                <span>Docs</span>
+            </nav>
+        </div>
+       
+        <div class="header-right">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart4"></span>
+        </div>
+    </header>
+    <section>
+        <nav>
+           <div>Home</div>
+           <div>About</div>
+           <div>Contact</div>
+           <div>Shop</div>
+        </nav>
+        <main>
+            Welcome to Shopping Online
+        </main>
+        <aside>
+            Ads..here
+        </aside>
+    </section>
+    <footer>
+        <div class="left-panel">
+            <div>
+                <div class="title">ABOUT</div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+                <div>Flipkart Stories</div>
+                <div>Press</div>
+                <div>Flipkart Wholesale</div>
+                <div>Corporate Information</div>
+            </div>
+            <div>
+                <div class="title">HELP</div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>
+            <div>  
+                <div class="title">POLICY</div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>
+            <div>
+                <div class="title">SOCIAL</div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div>
+                <div class="title">Mail us:</div>
+                <div>info@flipkart.in</div>
+            </div>
+            <div>
+                <div class="title">Registered Office Address:</div>
+                <div>
+                    Flipkart Internet Private Limited,
+
+                    Buildings Alyssa, Begonia &
+
+                    Clove Embassy Tech Village,
+
+                    Outer Ring Road, Devarabeesanahalli Village,
+
+                    Bengaluru, 560103,
+
+                    Karnataka, India
+
+                    CIN : U51109KA2012PTC066107
+
+                    Telephone: 044-45614700
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
